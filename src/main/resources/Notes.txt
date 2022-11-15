@@ -1,4 +1,0 @@
-API gateway, Distributed Tracing, Circuit breaker.
-
-
-We will now implement loadbalancer to know from which microservices this request is coming from.
