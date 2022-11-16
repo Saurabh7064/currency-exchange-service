@@ -11,3 +11,5 @@ http://localhost:8000/currency-exchange/from/USD/to/INR
 
 
 read all the commit message
+
+to start same service in another port manually -Dserver.port=8082
