@@ -4,3 +4,10 @@ API gateway, Distributed Tracing, Circuit breaker.
 We will now implement loadbalancer to know from which microservices this request is coming from.
 
 GitHub Repo - https://github.com/in28minutes/spring-microservices-v2.git
+
+This reposity containes the url basically to convert the usd,eur to inr
+
+http://localhost:8000/currency-exchange/from/USD/to/INR
+
+
+read all the commit message
