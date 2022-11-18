@@ -13,3 +13,14 @@ http://localhost:8000/currency-exchange/from/USD/to/INR
 read all the commit message
 
 to start same service in another port manually -Dserver.port=8082
+
+--
+Circuit Breaker
+with circuit breaker by firing 100s of request per sec the requests
+ will served for few times and then after some time the circuit breker
+  will not execut the api and will directly return the response from fallback
+watch -n 0.1 curl http://localhost:8000/sample-api
+
+so how to know if a microservice is again up? so that we can continue to call api
+isntead of returning the fallback response without even calling the api
+read more about states of a circuit breaker
