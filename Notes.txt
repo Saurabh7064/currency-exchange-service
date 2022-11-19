@@ -24,3 +24,5 @@ watch -n 0.1 curl http://localhost:8000/sample-api
 so how to know if a microservice is again up? so that we can continue to call api
 isntead of returning the fallback response without even calling the api
 read more about states of a circuit breaker
+watch -n 0.1 curl http://localhost:8000/sample-api //call multiple times
+https://www.udemy.com/course/microservices-with-spring-boot-and-spring-cloud/learn/lecture/24346924#overview
